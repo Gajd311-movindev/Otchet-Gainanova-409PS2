@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvGreeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tvBalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="24dp"
+        android:layout_marginBottom="32dp"
+        android:background="@android:drawable/editbox_background"/>
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ИСТОРИЯ ПОКУПОК"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnQR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="МОЙ QR-КОД"/>
+
+</LinearLayout>
